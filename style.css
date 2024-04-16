@@ -26,7 +26,7 @@ body {
 
 .hero {
   position: relative;
-  min-height: 100vh;
+  min-height: 120vh;
 }
 
 .hero h1,
@@ -101,14 +101,23 @@ body {
 }
 
 .home h3 {
-  color: #444;
+  color: #000000;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+}
+
+.home h4 {
+  color: #000000;
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
 .home p {
-  font-size: 1.1rem;
-  color: #666;
+  font-size: 1.5rem;
+  color: #000000;
+  font-style: bold;
 }
 
 .home .couple {
@@ -117,8 +126,9 @@ body {
 
 .home .couple h3 {
   font-family: 'Sacramento';
-  font-size: 2.4rem;
-  color: var(--pink --shadow);
+  font-size: 3.4rem;
+  color: #000792;
+  font-style: bold;
 }
 
 .home .couple img {
@@ -147,6 +157,7 @@ body {
   color: white;
   padding-top: 10rem;
   padding-bottom: 8rem;
+  font-size: 2.5rem;
 }
 
 .info .alamat {
@@ -204,7 +215,7 @@ body {
 .rsvp p,
 .gifts p {
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .timeline {
