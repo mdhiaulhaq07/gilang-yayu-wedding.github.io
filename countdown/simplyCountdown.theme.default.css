@@ -37,11 +37,12 @@
 /* laptop */
 @media (max-width: 992px) {
   html {
-    font-size: 75%;
+    font-size: 60%;
   }
 
   .simply-countdown > .simply-section {
-    padding: 70px;
+    padding: 25px;
+    margin: 2px;
   }
 
   .home .heart {
@@ -79,28 +80,32 @@
 }
 
 /* tablet */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   html {
-    font-size: 65%;
+    font-size: 60%;
   }
 
   .simply-countdown > .simply-section {
-    padding: 60px;
-    margin: 5px;
-  }
-
-  .mynavbar .nav-link {
-    font-size: 2rem;
-    text-align: center;
-  }
-
-  .sticky-top {
-    overflow: hidden;
+    padding: 25px;
+    margin: 2px;
   }
 
   .timeline li .timeline-image {
-    width: 140px;
-    height: 140px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .timeline li .timeline-panel {
+    width: 65%;
+    transform: translateX(-20px);
+  }
+
+  .timeline li .timeline-panel::before {
+    top: 30px;
+  }
+
+  .timeline li .timeline-panel::after {
+    top: 31px;
   }
 }
 
